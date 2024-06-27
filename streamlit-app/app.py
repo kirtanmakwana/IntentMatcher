@@ -5,7 +5,7 @@ import pickle
 with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-st.header('Duplicate Question Pairs')
+st.header('Intent Matcher')
 
 q1 = st.text_input('Enter question 1')
 q2 = st.text_input('Enter question 2')
